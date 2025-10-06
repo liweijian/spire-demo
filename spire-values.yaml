@@ -1,0 +1,10 @@
+# SPIRE 自定义配置
+global:
+  spire:
+    trustDomain: "supasaf.com"
+    clusterName: "minikube"
+
+# 禁用自动 Service Account 注册
+spire-server:
+  controllerManager:
+    enabled: false
